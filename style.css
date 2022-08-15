@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+header {
+  background-color: hsl(159, 100%, 76%);
+  max-height: 112px;
+  margin-bottom: 64px;
+  width: 100% vw;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-right: auto;
+  padding-left: auto;
+}
+
+section,
+header {
+  text-align: center;
+}
+
+header p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  line-height: 33px;
+  font-size: 24px;
+  color: #5c5c5c;
+}
+
+section .profile {
+  margin-bottom: 63.91px;
+}
+
+section .profile img {
+  width: 144.22px;
+  height: 144.22px;
+  border-radius: 100%;
+  margin-bottom: 12.78px;
+}
+
+section .profile p {
+  font-family: 'Prompt', sans-serif;
+  color: #5c5c5c;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #5c5c5c;
+}
+
+ul li .link a img {
+  height: 32px;
+  width: 32px;
+  margin-right: 23px;
+  margin-left: 140px;
+}
+
+ul li .link a {
+  background-color: white;
+  width: 430px;
+  max-height: 64px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 32px 0px 0px;
+  display: flex;
+  padding-top: 19px;
+  padding-bottom: 18px;
+}
+
+/* TODO: Deixar a página responsiva */
